@@ -1,0 +1,2 @@
+# Rose---Enterprise-Java-Development-Project
+Web application that can be used to book banquet halls called the Rose Banquet Halls Booking System. The system can be used to store a number of halls, clients, and bookings. It offers create, retrieve, update, and delete functions for all clients, halls, and bookings. To create a booking the user should book a hall to a client on a specific date. If the hall is already booked on that date, the system will reject the booking and will inform the user to change the hall or date.
