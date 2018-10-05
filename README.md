@@ -3,7 +3,7 @@ Web application that can be used to book banquet halls called the Rose Banquet H
 
 SYSTEM REQUIREMENTS: A computer with Java, MySQL Server and MySQL Connector.
 
-TO RUN ROSE APPLICATION
+TO RUN ROSE APPLICATION: 
 Open the project in Netbeans IDE;
 Start Services (GlassFish Server OR Apache Tomcat);
 Connect Services (Databases) using database name, user name and password;
