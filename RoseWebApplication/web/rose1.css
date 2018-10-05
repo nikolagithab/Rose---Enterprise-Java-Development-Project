@@ -1,0 +1,51 @@
+/* 
+    Created on : 2-Oct-2018, 1:42:44 PM
+    Author     : Nikola Petrovski
+*/
+.w3-tangerine {
+   font-family: "Tangerine", serif;
+   padding: 0;
+}
+h1 {
+   color: red;
+   margin: 0;
+   font-size: 10vw;
+}
+img {
+   width:30%;
+}
+#wrap {
+   width:50%;
+}
+.left {
+   width: 50%;
+   height:123px;
+   float:left;
+}
+.right {
+   width: 50%;
+   height:123px;
+   float:right;
+}
+ul {
+   list-style-type:none;
+   margin-left:-40px;
+}
+
+a{
+   text-decoration:none;
+   color:#cc0000;
+}
+a.button,div.container{
+   float:left;
+}
+a.button{
+   width: 100%;
+   background-color:#cc0000;
+   border:1px solid #660000;
+   border-radius:5px;
+   color:#fff;
+   margin-right:10px;
+   padding:10px 10px 10px 10px;
+}
+

@@ -1,0 +1,48 @@
+<%-- 
+    Document   : congratsBooking
+    Created on : 24-Sep-2018, 7:07:09 PM
+    Author     : Nikola Petrovski
+--%>
+
+<%@page import="bean.Client"%>
+<%@page import="bean.Hall"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="bean.Booking"%>
+<%@page import="data.ClientDAO"%>
+<%@page import="data.HallDAO"%>
+<%@page import="data.BookingDAO"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+      <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+      <link rel="stylesheet" type="text/css" href="rose1.css">
+      <title>JSP Page</title>
+   </head>
+   <body>
+      <%
+         int bookingID = Integer.parseInt(request.getParameter("bookingID"));
+         BookingDAO bookingDAO = new BookingDAO();
+         Booking booking = bookingDAO.retrieveBookingByBookingID(bookingID);
+         HallDAO hallDAO = new HallDAO();
+         Hall hall = hallDAO.retrieveHallByHallID(booking.getHallID());
+         ClientDAO clientDAO = new ClientDAO();
+         Client client = clientDAO.retrieveClientByClientID(booking.
+            getClientID());
+      %>
+      <h1 class="w3-container w3-tangerine"><img src="ROSA1.jpg" alt="Rose"/>Rose Banquet Halls </h1>
+   <center>
+      <h2 class="w3-container w3-tangerine">Congratulations!</h2>
+      You have successfully booked the 
+      <%=hall.getHallName()%> hall on 
+      <%=booking.getBookingDate()%> for 
+      <%=client.getClientName()%>.
+      <br>
+      <br>
+      <a href="index.html" class="button">Home Page</a>
+   </center>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/WebApps/RoseWebApplication/web/congratsBooking.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/data/BookingDAO.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/retrieveBooking.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/retrieveHall.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/deleteBooking.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/data/HallDAO.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/updateBooking.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/createBooking.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/rose2.css</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/data/DBManager.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/rose1.css</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/data/ClientDAO.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/index.html</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/rose3.css</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/controller/BookingControllerServlet.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/bean/Hall.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/controller/ClientControllerServlet.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/deleteHall.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/deleteClient.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/reBooking.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/createClient.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/bean/Booking.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/createHall.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/retrieveClient.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/controller/HallControllerServlet.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/updateHall.jsp</file>
+            <file>file:/C:/WebApps/RoseWebApplication/src/java/bean/Client.java</file>
+            <file>file:/C:/WebApps/RoseWebApplication/web/updateClient.jsp</file>
+        </group>
+    </open-files>
+</project-private>

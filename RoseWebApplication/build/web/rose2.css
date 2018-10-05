@@ -1,0 +1,19 @@
+/* 
+    Created on : 2-Oct-2018, 1:47:09 PM
+    Author     : Nikola Petrovski
+*/
+.w3-tangerine {
+   font-family: "Tangerine", serif;
+   padding: 0;
+}
+h1 {
+   color: white;
+   font-size: 10vw;
+   font-weight: bolder;
+}
+.w3-theme-l3 {
+   color:#000 !important; background-color:#fceaea !important
+}
+body {
+   background-image: url("ROSA2.jpg");
+}

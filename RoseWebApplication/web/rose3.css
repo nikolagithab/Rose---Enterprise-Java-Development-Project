@@ -1,0 +1,38 @@
+/* 
+    Created on : 2-Oct-2018, 5:16:29 PM
+    Author     : Nikola Petrovski
+*/
+.w3-tangerine {
+   font-family: "Tangerine", serif;
+   padding: 0;
+}
+h1 {
+   color: red;
+   margin: 0;
+   font-size: 10vw;
+}
+ul {
+   list-style-type:none;
+   margin-left:-40px;
+}
+
+a{
+   text-decoration:none;
+   color:#cc0000;
+}
+a.button{
+   width: 50%;
+   background-color:#cc0000;
+   border:1px solid #660000;
+   border-radius:5px;
+   color:#fff;
+   margin-right:10px;
+   padding:10px 10px 10px 10px;
+}
+.box2 {
+   display: inline-block;
+   width: 30%;
+}
+.bule {
+   list-style-type: none;
+}
